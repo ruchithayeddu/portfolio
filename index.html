@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeddu Ruchitha | Portfolio & Resume</title>
+    
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Portfolio of Yeddu Ruchitha, B.Tech Computer Science (Data Science) student and Web Developer. Explore projects, certifications, and technical skills.">
+    <meta name="keywords" content="Yeddu Ruchitha, Portfolio, Data Science, Web Developer, JNTUGV, Computer Science, Resume">
+    
+    <!-- Icons FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Glow Orbs for modern design -->
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+
+    <!-- Navigation Header -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#hero" class="logo" id="navLogo">YR</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#academics">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button class="theme-toggle" id="themeToggleBtn" aria-label="Toggle dark/light mode">
+                        <i class="fa-solid fa-sun" id="themeIcon"></i>
+                    </button>
+                </li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open mobile menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="hero-tag">Welcome to my Space</span>
+                <h1 class="hero-name" id="heroName">Yeddu Ruchitha</h1>
+                <div class="hero-title-anim">
+                    I'm a <span id="typedText"></span><span class="typing-cursor">|</span>
+                </div>
+                <p class="hero-desc" id="heroDesc">
+                    Motivated B.Tech Computer Science (Data Science) student with a strong foundation in programming and web development. Passionate about applying problem-solving skills, building functional dashboards, and exploring modern analytical models.
+                </p>
+            </div>
+            
+            <!-- Profile Image Card -->
+            <div class="about-img-container glass-card">
+                <img src="profile.jpg" alt="Yeddu Ruchitha" class="about-img">
+            </div>
+                
+    </section>
+
+    <!-- About & Personal Details Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About & Profile</h2>
+            <div class="about-grid">
+                <div class="about-info glass-card">
+                    <h3>Objective</h3>
+                    <p id="aboutObjective">
+                        Motivated B.Tech Computer Science (Data Science) student with a strong foundation in programming and web development, seeking an entry-level software developer role to apply problem-solving skills, learn emerging technologies, and contribute to organizational success.
+                    </p>
+                    
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <div class="detail-label">Father's Name</div>
+                            <div class="detail-value" id="valFatherName">Yeddu Babu Rao</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Date of Birth</div>
+                            <div class="detail-value" id="valDOB">18th June 2006</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Hobbies</div>
+                            <div class="detail-value" id="valHobbies">Listening to music, solving puzzles</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Address</div>
+                            <div class="detail-value" id="valAddress">Srikakulam, Andhra Pradesh</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Profile Section -->
+    <section id="academics">
+        <div class="container">
+            <h2 class="section-title">Academic Profile</h2>
+            <div class="timeline">
+                <!-- Academic Card 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass-card">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">B.Tech (Computer Science - Data Science)</h3>
+                            <span class="timeline-year">Pursuing</span>
+                        </div>
+                        <h4 class="timeline-subtitle">Aditya Institute of Technology and Management, Tekkali</h4>
+                        <p class="timeline-location">University: JNTUGV, Vizianagaram</p>
+                        <div class="timeline-grade">
+                            <i class="fa-solid fa-graduation-cap"></i> CGPA: 8.68
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Academic Card 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass-card">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">Intermediate (AP Board)</h3>
+                            <span class="timeline-year">2023</span>
+                        </div>
+                        <h4 class="timeline-subtitle">Narayana Junior College, Visakhapatnam</h4>
+                        <p class="timeline-location">Board of Intermediate Education, Andhra Pradesh</p>
+                        <div class="timeline-grade">
+                            <i class="fa-solid fa-award"></i> Percentage: 85%
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Academic Card 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass-card">
+                        <div class="timeline-header">
+                            <h3 class="timeline-title">ICSE (Class X)</h3>
+                            <span class="timeline-year">2021</span>
+                        </div>
+                        <h4 class="timeline-subtitle">St. Ann's Convent School, Pathapatnam</h4>
+                        <p class="timeline-location">Indian Certificate of Secondary Education</p>
+                        <div class="timeline-grade">
+                            <i class="fa-solid fa-award"></i> Percentage: 85%
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-filter">
+                <button class="filter-btn active" data-filter="all">All Skills</button>
+                <button class="filter-btn" data-filter="programming">Programming</button>
+                <button class="filter-btn" data-filter="web">Web & Scripting</button>
+                <button class="filter-btn" data-filter="tools">Data Tools</button>
+                <button class="filter-btn" data-filter="db">Databases</button>
+                <button class="filter-btn" data-filter="os">OS</button>
+            </div>
+            
+            <div class="skills-grid" id="skillsGrid">
+                <!-- Skill cards added/filtered dynamically in app.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section with Live Interactive Simulator -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Project Showcase</h2>
+            <div class="glass-card project-card-layout">
+                <div class="project-details">
+                    <div>
+                        <div class="project-meta">
+                            <span class="project-tech">HTML</span>
+                            <span class="project-tech">CSS</span>
+                            <span class="project-tech">JavaScript</span>
+                            <span class="project-tech">Firebase</span>
+                            <span class="project-tech">Bootstrap</span>
+                        </div>
+                        <h3 class="project-title">IT Helpdesk & Ticket Resolution Dashboard</h3>
+                        <p class="project-desc">
+                            Designed and developed a responsive, full-featured web-based dashboard for efficient IT ticket management. Implemented database synchronization using Firebase, providing seamless ticket updates and assignment capabilities.
+                        </p>
+                        <ul class="project-features">
+                            <li>Real-time ticket tracking based on priority, status, and resolution timings.</li>
+                            <li>Interactive analytical dashboard for workflow monitoring.</li>
+                            <li>User-friendly support flow interfaces to log and audit support requests.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="text-muted" style="font-size: 0.85rem; margin-bottom: 0.5rem;">
+                            <i class="fa-solid fa-gamepad" style="color: var(--secondary)"></i> Try out the interactive simulation panel on the right to see the ticketing dashboard system architecture in action!
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Ticketing Dashboard Simulator -->
+                <div class="simulator-widget">
+                    <div class="simulator-header">
+                        <div class="sim-window-dots">
+                            <span class="sim-dot red"></span>
+                            <span class="sim-dot yellow"></span>
+                            <span class="sim-dot green"></span>
+                        </div>
+                        <span class="sim-header-title">IT-HELPDESK-CONSOLE.JS</span>
+                        <span><i class="fa-solid fa-chart-line" style="color: var(--primary)"></i></span>
+                    </div>
+                    
+                    <div class="simulator-body">
+                        <!-- Dashboard Analytics -->
+                        <div class="sim-stats-grid">
+                            <div class="sim-stat-card">
+                                <div class="sim-stat-value" id="simOpenCount">3</div>
+                                <div class="sim-stat-label">Open</div>
+                            </div>
+                            <div class="sim-stat-card">
+                                <div class="sim-stat-value" id="simPendingCount">2</div>
+                                <div class="sim-stat-label">In Progress</div>
+                            </div>
+                            <div class="sim-stat-card">
+                                <div class="sim-stat-value" id="simResolvedCount">15</div>
+                                <div class="sim-stat-label">Resolved</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Control Actions & Filters -->
+                        <div class="sim-controls">
+                            <button class="sim-btn-add" id="simAddTicketBtn"><i class="fa-solid fa-plus"></i> Create Ticket</button>
+                            <div class="sim-filters">
+                                <button class="sim-filter-chip active" data-sim-filter="all">All</button>
+                                <button class="sim-filter-chip" data-sim-filter="high">High</button>
+                                <button class="sim-filter-chip" data-sim-filter="pending">Active</button>
+                            </div>
+                        </div>
+                        
+                        <!-- Scrollable Tickets Grid -->
+                        <div class="sim-tickets-list" id="simTicketsList">
+                            <!-- Items added dynamically -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Co-Curricular Activities -->
+    <section id="certifications">
+        <div class="container certifications-section">
+            <div>
+                <h2 class="section-title" style="left: 0; transform: none; display: block; text-align: left;">Certifications</h2>
+                <div class="cert-list">
+                    <!-- Cert 1 -->
+                    <div class="cert-card glass-card">
+                        <div class="cert-icon">
+                            <i class="fa-brands fa-python"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h4>Python for DataScience</h4>
+                            <p>Issued by NPTEL (IIT Madras) • Completed Coursework</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Cert 2 -->
+                    <div class="cert-card glass-card">
+                        <div class="cert-icon">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h4>Web Development Fundamentals</h4>
+                            <p>Issued by GeeksforGeeks • Certification & Projects</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Cert 3 -->
+                    <div class="cert-card glass-card">
+                        <div class="cert-icon">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h4>Python Fundamentals</h4>
+                            <p>Issued by IBM • Technical Skills Credential</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <h2 class="section-title" style="left: 0; transform: none; display: block; text-align: left;">Activities & Achievements</h2>
+                <div class="glass-card" style="padding: 1.75rem;">
+                    <div class="activities-list">
+                        <!-- Activity 1 -->
+                        <div class="activity-item">
+                            <div class="activity-bullet"></div>
+                            <div class="activity-text">
+                                <h5>STEPCONE-2026 Web Saga Hackathon</h5>
+                                <p>Participated in Web Development challenge conducted by GMRIT, Rajam.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Activity 2 -->
+                        <div class="activity-item">
+                            <div class="activity-bullet"></div>
+                            <div class="activity-text">
+                                <h5>Cyber Security Workshop</h5>
+                                <p>Attended specialized systems and web application safety training conducted at GMRIT, Rajam.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Activity 3 -->
+                        <div class="activity-item">
+                            <div class="activity-bullet"></div>
+                            <div class="activity-text">
+                                <h5>Data Analytics Workshop</h5>
+                                <p>Participated in practical data analysis tool usage classes organized by AITAM, Tekkali.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Activity 4 -->
+                        <div class="activity-item">
+                            <div class="activity-bullet"></div>
+                            <div class="activity-text">
+                                <h5>Extracurricular Engagement</h5>
+                                <p>Active member of the college Cultural Club and volunteer for cultural events.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Interactive Resume Customizer Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-card glass-card">
+                    <h3>Contact Information</h3>
+                    <p class="text-muted" style="margin-bottom: var(--space-sm);">Feel free to reach out directly through any of these platforms:</p>
+                    
+                    <div class="contact-info-list">
+                        <!-- Email -->
+                        <a href="mailto:yedduruchitha@gmail.com" class="contact-link-item">
+                            <div class="contact-link-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="contact-link-details">
+                                <h5>Email</h5>
+                                <p id="valEmail">yedduruchitha@gmail.com</p>
+                            </div>
+                        </a>
+                        
+                        <!-- Contact -->
+                        <a href="tel:+918019210135" class="contact-link-item">
+                            <div class="contact-link-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="contact-link-details">
+                                <h5>Phone</h5>
+                                <p id="valPhone">+91-8019210135</p>
+                            </div>
+                        </a>
+                        
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/in/ruchitha-yeddu-170983324" target="_blank" rel="noopener" class="contact-link-item">
+                            <div class="contact-link-icon">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
+                            <div class="contact-link-details">
+                                <h5>LinkedIn</h5>
+                                <p>ruchitha-yeddu-170983324</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="glass-card">
+                    <h3>Send a Message</h3>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="formName">Name</label>
+                            <input type="text" id="formName" class="form-input" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="formEmail">Email</label>
+                            <input type="email" id="formEmail" class="form-input" required placeholder="name@domain.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="formMsg">Message</label>
+                            <textarea id="formMsg" class="form-input" required placeholder="Hi Ruchitha, I loved your dashboard project..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="align-self: flex-start;">
+                            <i class="fa-solid fa-paper-plane"></i> Send message
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Dynamic Customizer Panel -->
+            <div class="glass-card resume-customizer" style="margin-top: var(--space-lg); padding: 1.5rem;">
+                <h3 style="font-size: 1.3rem; margin-bottom: 0.5rem;"><i class="fa-solid fa-pen-to-square" style="color: var(--secondary)"></i> Dynamic Resume Builder & Customizer</h3>
+                <p class="text-muted" style="font-size: 0.85rem; margin-bottom: 1rem;">
+                    Update these fields to modify content throughout the entire website in real-time. Once modified, you can print/save as a tailored PDF copy!
+                </p>
+                <div class="customizer-form">
+                    <div class="customizer-input-group">
+                        <label for="custName">Full Name</label>
+                        <input type="text" id="custName" class="customizer-input" value="YEDDU RUCHITHA">
+                    </div>
+                    <div class="customizer-input-group">
+                        <label for="custEmail">Email Address</label>
+                        <input type="email" id="custEmail" class="customizer-input" value="yedduruchitha@gmail.com">
+                    </div>
+                    <div class="customizer-input-group">
+                        <label for="custPhone">Phone Number</label>
+                        <input type="text" id="custPhone" class="customizer-input" value="+91-8019210135">
+                    </div>
+                    <div class="customizer-input-group">
+                        <label for="custObjective">Career Objective</label>
+                        <input type="text" id="custObjective" class="customizer-input" value="Motivated B.Tech Computer Science (Data Science) student with a strong foundation in programming and web development, seeking an entry-level software developer role to apply problem-solving skills, learn emerging technologies, and contribute to organizational success.">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-logo">Yeddu Ruchitha</div>
+            <div class="footer-copy">© 2026 Yeddu Ruchitha. All Rights Reserved.</div>
+        </div>
+    </footer>
+
+    <!-- Toast Container -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
